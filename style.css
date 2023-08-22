@@ -1,0 +1,186 @@
+body{
+    overflow-x: hidden;
+}
+
+.agidi{
+    background-color: #ECE8D9;
+}
+.chai{
+    
+}
+.nav{
+    background-color: #f7f6f4;
+}
+.up{
+    font-weight: bold;
+    font-size: 15px;
+}
+.font{
+    font-family: "SF-PRO", sans-serif;
+}
+.samecolor{
+    color: #384A62;
+}
+input, .quality, .shipped, .question{
+    margin-left: 105px;
+    border: none;
+    border-radius: 10px;
+}
+.quality{
+    font: 67.2px "dm serif display, serif" !important;
+    font-weight: bolder !important;
+    margin-top: 80px;
+}
+.shipped{
+    color: #708095;
+}
+.question{
+    font: 16px;
+}
+.popular{
+    font-size: 30px;
+    font-family: "dm serif display", serif;
+}
+.text-end{
+    margin-top: -26px;
+}
+.start, .price, .per{
+    color: #708095;
+}
+.start{
+    font-size: 12.8px;
+}
+.price{
+    font-size: 20px;
+}
+.per{
+    font-size: 14.4px;
+}
+.lastcard{
+    font-size: 15px;
+}
+.ourprint{
+    color: #506683;
+}
+.reviews{
+    background-color: #EDF6FD;
+}
+.relative{
+    position: relative;
+    top: 70px;
+    right: 20px;
+    width: 70px;
+}
+.lastimg{
+    height: 30px;
+}
+.lastone{
+    background: #384A62;
+}
+.lastul{
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 14px;
+}
+footer{
+    background-color: #cbcac8;
+}
+
+@media screen and (max-width: 800px) {
+    .query, .need{
+        display: none;
+    }
+    .naija{
+        margin-left: 0 !important;
+        border: thin solid grey;
+    }
+    .quality, .shipped, .question, input{
+        margin-left: 20px;
+    }
+    .quality{
+        font-size: 36px !important;
+    }
+    .shipped{
+        margin-top: 19px;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+        margin-right: 60px;
+    }
+    .lstimg{
+        width: 50% !important;
+    }
+    .card{
+        margin-top: 20px !important;
+    }
+    .ourprint{
+        font-size: 16px !important;
+    }
+
+}
+@media screen and (max-width: 580px) {
+    .card{
+        width: 95%;
+        margin: auto;
+    }
+    .save{
+        margin-top: -30px !important;
+    }
+    .alagidi{
+        font-size: 20px !important;
+    }
+    .alagidi2{
+        font-size: 10px;
+        margin-top: -22px !important;
+    }
+    .popular{
+        font-size: 28px;
+    }
+    .lastimg{
+        width: 200px;
+    }
+    .navbar-brand, .signin, .trolley{
+        margin-top: 28px;
+    }
+    .oke{
+        height: 82px;
+    }
+    .forbes, .cabal, .undercabal, .techpoint, .naija, .phoneno{
+        position: relative;
+    }
+    .forbes{
+       right: 48px;
+    }
+    .cabal{
+        right: 31px;
+    }
+    .undercabal{
+        right: 64px;
+    }
+    .techpoint{
+        right: 12px;
+    }
+    .naija{
+        width: 90px;
+        left: 18px;
+    }
+    .phoneno{
+        font-size: 12.5px;
+        top: 7px;
+    }
+    .trolley{
+        position: relative;
+        left: 60px;
+    }
+}
+@media screen and (max-width:400px) {
+    .phoneno{
+        font-size: 10px !important;
+    }
+    .naija{
+        font-size: 10px;
+        width: 70px;
+    }
+}
+
